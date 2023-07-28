@@ -26,7 +26,11 @@ double DrivingCost(double milesPerGallon, double dollarsPerGallon, double milesD
 #include <iomanip>               // For setprecision
 using namespace std;
 
-/* Define your function here */
+double DrivingCost(double milesPerGallon, double dollarsPerGallon, double milesDriven)
+{
+	double costPerMile = (milesDriven / milesPerGallon * dollarsPerGallon);
+	return costPerMile;
+}
 
 int main() {
 	/* Type your code here */
