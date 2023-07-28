@@ -36,5 +36,10 @@ int main() {
 	double milesPerGallon, dollarsPerGallon, milesDriven;
 	cin >> milesPerGallon >> dollarsPerGallon;
 
+	cout << fixed << setprecision(2);
+	cout << DrivingCost(milesPerGallon, dollarsPerGallon, 10.0)  << " ";
+	cout << DrivingCost(milesPerGallon, dollarsPerGallon, 50.0)  << " ";
+	cout << DrivingCost(milesPerGallon, dollarsPerGallon, 400.0) << endl;
+
 	return 0;
 }
