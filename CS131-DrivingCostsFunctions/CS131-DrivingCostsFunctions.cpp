@@ -33,7 +33,8 @@ double DrivingCost(double milesPerGallon, double dollarsPerGallon, double milesD
 }
 
 int main() {
-	/* Type your code here */
+	double milesPerGallon, dollarsPerGallon, milesDriven;
+	cin >> milesPerGallon >> dollarsPerGallon;
 
 	return 0;
 }
